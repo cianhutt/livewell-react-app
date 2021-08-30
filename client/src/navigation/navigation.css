@@ -1,0 +1,31 @@
+.navbar .nav-item .nav-link{
+    color: #0000008C;
+    font-family: 'Roboto';
+}
+
+.navbar-nav{
+    margin-right:20px;
+}
+
+.navbar-nav .nav-link{
+    margin-left: 2px;
+    margin-right: 2px;
+    /* font-size: 1.5 em; */
+}
+
+.navbar-nav button{
+    background-color: #008CFF;
+    margin-left: 10px;
+    border: 0px;
+    color: white;
+    line-height: 2.4em;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+@media (min-width: 320px){
+    .navbar .nav-item .nav-link{
+    padding-left: 50px;
+    }
+}
